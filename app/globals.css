@@ -38,6 +38,7 @@
 #checkbox:checked + .label .ball {
   transform: translateX(24px);
 }
+
 #checkbox {
   opacity: 0;
   position: absolute;
@@ -71,7 +72,7 @@
   font-size: 40px;
   font-weight: bold;
   transition: .5s;
-  color: var(--check)
+  color: var(--check);
 }
 
 .bio {
@@ -108,8 +109,7 @@
 .contact-btn {
   background-color: var(--padrao);
   transition: .5s;
-  width: 10%;
-  height: 10%;
+  padding: 10px;
   color: var(--check);
   font-size: 20px;
   font-weight: bolder;
@@ -126,10 +126,10 @@
   font-size: 30px;
   font-weight: 600;
   color: var(--check);
+  transition: .5s;
 }
 
 .main {
-  display: flex;
   justify-content: center;
   padding-top: 30px;
   background-color: var(--padrao);
@@ -139,18 +139,49 @@
 }
 
 .keychain {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  justify-content: center;
+  gap: 20px;
   margin-top: 20px;
-  width: 20vh;
   border-radius: 12%;
-  border: 2px solid var(--check);
   transition: .5s;
 }
 
 #keychain-1 {
   border-radius: 12%;
+  border: 2px solid var(--check);
+  transition: .5s;
 }
 
 #keychain-1:hover {
-  transform: scale(2.5);
+  transform: scale(2.0);
   transition: .2s;
+  z-index: 1;
+}
+
+#keychain-1:not(:hover) {
+  opacity: 0.9;
+  transition: .2s;
+}
+
+#coding-bg {
+  position: fixed;
+  opacity: 0.3;
+  border-radius: 22px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: blur(1px);
+  pointer-events: none;
+}
+
+.youtube-player {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  border: 2px solid var(--padrao);
+  transition: 0.5s;
 }
