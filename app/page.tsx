@@ -9,6 +9,7 @@ import { Introduction } from './components/Introduction.js';
 import { Skills } from './components/Skills.js';
 import { Projects } from './components/Projects.js'
 import YouTubePlayer from './components/YouTubePlayer';
+import { Links } from './components/Links.js';
 
 
 
@@ -52,12 +53,15 @@ export default function Home() {
           <hr></hr>
           • Version control familiarity <br />
           <hr></hr>
-          • Hands-On Project Buidling Experience <br />
+          • Hands-On Project Building Experience <br />
           <hr></hr>
-          • 17 YRS Photoshop and InDesign  <br />
+          • 17 years of Photoshop and InDesign  <br />
           <hr></hr>
           </div>
         </div>
+      </div>
+      <div className="Links">Links
+        <div className="links-panel"><Links /></div>
       </div>
     </div>
   )
