@@ -36,6 +36,29 @@ export default function Home() {
       <div className="main">
         <Projects />
       </div>
+      <div className="highlights-container">
+        <div className='pb-3'>Highlights</div>
+        <div className="highlights">
+          <div className='highlights-list'>
+          • Version Control familiarity <br />
+          <hr></hr>
+          • Visual Studio Code<br />
+          <hr></hr>
+          • Responsive Web Design Certification <br />
+          <hr></hr>
+          • Front-End Libraries Certification <br />
+          <hr></hr>
+          • Tailwind CSS Experience <br />
+          <hr></hr>
+          • Version control familiarity <br />
+          <hr></hr>
+          • Hands-On Project Buidling Experience <br />
+          <hr></hr>
+          • 17 YRS Photoshop and InDesign  <br />
+          <hr></hr>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
