@@ -1,5 +1,4 @@
 'use client';
-import Image from 'next/image';
 import React from 'react';
 import './globals.css';
 import { useRouter } from 'next/navigation'
@@ -39,7 +38,7 @@ export default function Home() {
         <YouTubePlayer videoId="FrGEq6Jy3FA" />
       </div>
       <div className="contact" id="Email">
-        <button className="contact-btn" onClick={() => router.push('mailto:skyemclean87@gmail.com')}>Let's Chat</button>
+        <button className="contact-btn" onClick={() => router.push("mailto:skyemclean87@gmail.com")}>Lets Chat</button>
       </div>
       <div className="main" id="Projects">
         <Projects />
