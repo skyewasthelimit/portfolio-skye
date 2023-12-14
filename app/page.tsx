@@ -7,7 +7,7 @@ import { Darkmode } from './components/darkmode.js';
 import { Introduction } from './components/Introduction.js';
 import { Skills } from './components/Skills.js';
 import { Projects } from './components/Projects.js'
-import YouTubePlayer from "./components/YouTubePlayer";
+import YouTubePlayer from "./components/YouTubePlayer.js";
 import { Links } from './components/Links.js';
 import { Cards } from './components/Cards.js';
 import { Dropdown } from './components/Dropdown.js';
