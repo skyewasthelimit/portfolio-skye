@@ -476,3 +476,22 @@ padding-bottom: 30px;
   transition: .5s;
   border: 1px solid var(--padrao);
 }
+
+.video-responsive {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  display: flex;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

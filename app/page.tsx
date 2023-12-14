@@ -7,7 +7,6 @@ import { Darkmode } from './components/darkmode.js';
 import { Introduction } from './components/Introduction.js';
 import { Skills } from './components/Skills.js';
 import { Projects } from './components/Projects.js'
-import YouTubePlayer from "./components/YouTubePlayer.js";
 import { Links } from './components/Links.js';
 import { Cards } from './components/Cards.js';
 import { Dropdown } from './components/Dropdown.js';
@@ -35,7 +34,19 @@ export default function Home() {
         <Skills />
       </div>
       <div className="youtube-player">
-        <YouTubePlayer videoId="FrGEq6Jy3FA" />
+        <iframe
+          width="640"
+          height="360"
+          src='https://www.youtube.com/embed/FrGEq6Jy3FA'
+          allow="accelerometer; 
+        autoplay; 
+        clipboard-write; 
+        encrypted-media; 
+        gyroscope; 
+        picture-in-picture; 
+        web-share"
+          title='video'
+        />
       </div>
       <div className="contact" id="Email">
         <button className="contact-btn" onClick={() => router.push("mailto:skyemclean87@gmail.com")}>Lets Chat</button>
@@ -84,7 +95,7 @@ export default function Home() {
           (250) 857 - 6544 <br />
         </div>
         <div className="top">
-        <a href="#Topper"><button className="top-btn">Top</button></a>
+          <a href="#Topper"><button className="top-btn">Top</button></a>
         </div>
       </div>
     </div>
