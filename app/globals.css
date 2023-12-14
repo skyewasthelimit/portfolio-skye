@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 12px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
 :root {
   --padrao: #fff;
   --check: #10191d;
@@ -236,7 +260,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--check);
-  width: 500px;
+  width: 412px;
   height: 350px;
   transition: .5s;
   border: 1px solid var(--check);
@@ -246,7 +270,7 @@
 .highlights-list {
   position: relative;
   color: var(--padrao);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   transition: .5s;
   text-align: left;
 }
@@ -333,7 +357,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 380px;
+  width: 320px;
   height: 80px;
   background-color: var(--check);
   border-top-right-radius: 50px;
@@ -454,8 +478,8 @@ padding-bottom: 30px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  padding-top: 60px;
-  width: 60%;
+  padding-top: 50px;
+  width: 50%;
 }
 
 .top-btn {
