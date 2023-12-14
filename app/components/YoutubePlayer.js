@@ -3,7 +3,7 @@ import React from 'react';
 import YouTube from 'react-youtube';
 
 
-const YouTubePlayer = ({ videoId }) => {
+export const YouTubePlayer = ({ videoId }) => {
     const onReady = (event) => {
       const player = event.target;
   
