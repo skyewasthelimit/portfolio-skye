@@ -9,7 +9,7 @@ export const Cards = () => {
 
   return (
     <div className="card-wrapper">
-      <div onClick={toggleExpanded} className="card-1">Contact</div>
+      <div onClick={toggleExpanded} className="card-1">Contact <br /> &gt;&gt; </div>
       {isCardExpanded && (
           <div className="card-1-expanded">Email: skyemclean87@gmail.com</div>
       )}

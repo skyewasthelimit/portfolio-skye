@@ -36,7 +36,7 @@ export default function Home() {
         <Skills />
       </div>
       <div className="youtube-player">
-        <YouTubePlayer videoId="vHq1ncfGqAk" />
+        <YouTubePlayer videoId="FrGEq6Jy3FA" />
       </div>
       <div className="contact" id="Email">
         <button className="contact-btn" onClick={() => router.push('mailto:skyemclean87@gmail.com')}>Let's Chat</button>
