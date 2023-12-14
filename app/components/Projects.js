@@ -5,7 +5,7 @@ export const Projects = () => {
     <div className="projects">
       Projects
       <div className="projects-wrapper">
-      <img id="keychain-1" onClick="" style={{ objectFit: 'cover', width: '100vw', height: '20vh' }} src="/images/keychain.png" alt="KeyChain App" />
+      <img id="keychain-1" style={{ objectFit: 'cover', width: '100vw', height: '20vh' }} src="/images/keychain.png" alt="KeyChain App" />
       <a href="https://skye-calculator.netlify.app" target="_blank"><img id="keychain-1" style={{ objectFit: 'cover', width: '100vw', height: '20vh' }} src="/images/calculator.png" alt="Calculator App" /></a>
       <a href="https://main--cute-blini-24ad79.netlify.app/" target="_blank"><img id="keychain-1" style={{ objectFit: 'cover', width: '100vw', height: '20vh' }} src="/images/tetris.png" alt="Tetris App" /></a>
       <a href="https://skye-quotes.netlify.app" target="_blank"><img id="keychain-1" style={{ objectFit: 'cover', width: '100vw', height: '20vh' }} src="/images/quotes.png" alt="Quotes App" /></a>
