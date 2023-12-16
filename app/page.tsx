@@ -16,6 +16,7 @@ export default function Home() {
   return (
     <div className="header">
       <div className="topper" id="Topper">
+      <img id="coding-bg" src="/images/nebula.jpg" alt="Coding BG" />
         <Dropdown />
       </div>
       <div>
@@ -23,7 +24,6 @@ export default function Home() {
       </div>
       <div className="bio" id="Video">
         <Introduction />
-        <img id="coding-bg" src="/images/coding.png" alt="Coding BG" />
       </div>
       <div className="skye-picture">
         <img src="/images/skye.png" alt="Coding BG" />
