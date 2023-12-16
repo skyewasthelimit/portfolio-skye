@@ -33,6 +33,7 @@ export default function Home() {
       </div>
       <div className="youtube-player">
         <iframe
+          className="skye-video"
           width="640"
           height="360"
           src='https://www.youtube.com/embed/FrGEq6Jy3FA'
