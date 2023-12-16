@@ -89,10 +89,9 @@ export default function Home() {
       <div className="footer" id="Contact">
         <div className="contact-info">
           Skye McLean <br />
-          #306 - 2500 Quadra St. <br />
           Victoria, BC <br />
-          V8T 4E2 <br />
-          (250) 857 - 6544 <br />
+          Front-End Web Developer <br />
+          This website was made with Next.JS <br />
         </div>
         <div className="top">
           <a href="#Topper"><button className="top-btn">Top</button></a>

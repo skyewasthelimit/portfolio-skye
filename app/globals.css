@@ -201,19 +201,27 @@
   transition: .5s;
 }
 
-#keychain-1 {
+.keychain-1 {
   border-radius: 12%;
   border: 2px solid var(--check);
   transition: .5s;
-}
-
-#keychain-1:hover {
-  transform: scale(2.0);
-  transition: .3s;
   z-index: 1;
 }
 
-#keychain-1:not(:hover) {
+.link-image{
+  border-radius: 12%;
+  border: 2px solid var(--check);
+  transition: .5s;
+  z-index: 1;
+}
+
+.keychain-1:hover {
+  transform: scale(2.0);
+  transition: .3s;
+  z-index: 10;
+}
+
+.keychain-1:not(:hover) {
   opacity: 0.9;
   transition: .2s;
 }
@@ -519,4 +527,9 @@ padding-bottom: 30px;
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+body {
+  background-color: var(--padrao);
+  transition: 0.5s;
 }
