@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import './globals.css';
-import { useRouter } from 'next/navigation'
 
 import { Darkmode } from './components/darkmode.js';
 import { Introduction } from './components/Introduction.js';
@@ -13,7 +12,6 @@ import { Dropdown } from './components/Dropdown.js';
 
 
 export default function Home() {
-  const router = useRouter()
 
   return (
     <div className="header">
@@ -49,7 +47,7 @@ export default function Home() {
         />
       </div>
       <div className="contact" id="Email">
-        <button className="contact-btn" onClick={() => router.push("mailto:skyemclean87@gmail.com")}>Lets Chat</button>
+        <a href="mailto:skyemclean87@gmail.com"><button className="contact-btn">Lets Chat</button></a>
       </div>
       <div className="main" id="Projects">
         <Projects />
