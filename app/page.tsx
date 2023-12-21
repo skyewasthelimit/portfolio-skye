@@ -67,7 +67,7 @@ export default function Home() {
             <hr></hr>
             • Tailwind CSS Experience <br />
             <hr></hr>
-            • Version control familiarity <br />
+            • Fast Learner and Adaptible <br />
             <hr></hr>
             • Hands-On Project Building Experience <br />
             <hr></hr>
