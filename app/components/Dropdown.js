@@ -16,12 +16,12 @@ export const Dropdown = () => {
       </div>
       {isDropdownOpen && (
         <div className="dropdown-content">
-          <div className="dropdown-item"><a href="#Video">Video</a></div>
-          <div className="dropdown-item"><a href="#Email">Email</a></div>
-          <div className="dropdown-item"><a href="#Projects">Projects</a></div>
-          <div className="dropdown-item"><a href="#Highlights">Highlights</a></div>
-          <div className="dropdown-item"><a href="#Links">Links</a></div>
-          <div className="dropdown-item"><a href="#Contact">Contact</a></div>
+          <a href="#Video"><div className="dropdown-item">Video</div></a>
+          <a href="#Email"><div className="dropdown-item">Email</div></a>
+          <a href="#Projects"><div className="dropdown-item">Projects</div></a>
+          <a href="#Highlights"><div className="dropdown-item">Highlights</div></a>
+          <a href="#Links"><div className="dropdown-item">Links</div></a>
+          <a href="#Contact"><div className="dropdown-item">Contact</div></a>
         </div>
       )}
     </div>

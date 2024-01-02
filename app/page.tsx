@@ -22,7 +22,7 @@ export default function Home() {
       <div>
         <Darkmode />
       </div>
-      <div className="bio" id="Video">
+      <div className="bio">
         <Introduction />
       </div>
       <div className="skye-picture">
@@ -33,6 +33,7 @@ export default function Home() {
       </div>
       <div className="youtube-player">
         <iframe
+          id="Video"
           className="skye-video"
           width="640"
           height="360"
@@ -92,9 +93,7 @@ export default function Home() {
           Front-End Web Developer <br />
           This website was made with Next.JS <br />
         </div>
-        <div className="top">
           <a href="#Topper"><button className="top-btn">Top</button></a>
-        </div>
       </div>
     </div>
   )

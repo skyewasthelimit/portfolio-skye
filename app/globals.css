@@ -24,6 +24,7 @@
 
 #dark-mode {
   display: flex;
+  margin-left: 10px;
   width: 10%;
   height: 10vh;
   justify-content: center;
@@ -139,7 +140,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 20px;
 }
 
@@ -222,6 +223,7 @@
   justify-content: center;
   filter: blur(1px);
   pointer-events: none;
+  transform: scale(2.0);
 }
 
 .youtube-player {
@@ -258,7 +260,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--check);
-  width: 90vw;
+  width: 98vw;
   height: 350px;
   transition: .5s;
   border: 1px solid var(--check);
@@ -393,11 +395,7 @@
   background-color: var(--check);
   transition: .5s;
   width: 100%;
-  height: 150px;
-}
-
-#Topper {
-  position: relative;
+  height: 20vh;
 }
 
 .topper {
@@ -410,6 +408,7 @@
 }
 
 .dropdown-content {
+  right: 0px;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -474,18 +473,10 @@ padding-bottom: 30px;
   width: 30%;
   padding: 16px;
   font-size: 1.5vh;
-}
-
-.top {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding-top: 50px;
-  width: 50%;
+  margin-right: auto;
 }
 
 .top-btn {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -495,6 +486,8 @@ padding-bottom: 30px;
   font-size: 18px;
   padding: 10px 20px;
   border-radius: 12px;
+  margin-right: 20px;
+  margin-top: 50px;
 }
 
 .top-btn:hover {
