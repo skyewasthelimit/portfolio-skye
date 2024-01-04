@@ -37,7 +37,7 @@ export default function Home() {
           className="skye-video"
           width="640"
           height="360"
-          src='https://www.youtube.com/embed/FrGEq6Jy3FA'
+          src='https://www.youtube.com/embed/EFiXACuFhxo'
           allow="accelerometer; 
         autoplay; 
         clipboard-write; 
