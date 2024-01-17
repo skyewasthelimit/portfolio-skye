@@ -91,16 +91,24 @@ export default function Home() {
         <p className='wips-text'>User-content generated list website for games using IMGB API and OAuth built with Next.js</p>
        ____________________________________________________
       </div>
-
-      <div className="youtube-player" ID="RPG-GAME">
+      
+      <div className="youtube-player" id="RPG-GAME">
         <p>Full game I scripted and built to be released on Steam this year</p>
-      <iframe width="560" height="315" 
-      src="https://www.youtube.com/embed/oeHL3t4hob4?si=Wau9UvEi4HMvOteC" title="YouTube video player" frameborder="0" 
-      allow="accelerometer; autoplay; 
-      clipboard-write; encrypted-media; 
-      gyroscope; picture-in-picture; 
-      web-share" 
-      allowfullscreen></iframe>
+        <iframe
+          id="Video"
+          className="skye-video"
+          width="640"
+          height="360"
+          src='https://www.youtube.com/embed/oeHL3t4hob4?si=Wau9UvEi4HMvOteC'
+          allow="accelerometer; 
+        autoplay; 
+        clipboard-write; 
+        encrypted-media; 
+        gyroscope; 
+        picture-in-picture; 
+        web-share"
+          title='video'
+        />
       <p className='wips-text'>Developed using RPG Maker VX Ace</p>
       </div>
 
