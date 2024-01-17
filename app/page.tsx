@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="header">
       <div className="topper" id="Topper">
-      <img id="coding-bg" src="/images/nebula.jpg" alt="Coding BG" />
+        <img id="coding-bg" src="/images/nebula.jpg" alt="Coding BG" />
         <Dropdown />
       </div>
       <div>
@@ -66,7 +66,7 @@ export default function Home() {
             <hr></hr>
             • Front-End Libraries Certification <br />
             <hr></hr>
-            • Tailwind CSS Experience <br />
+            • Modern Framework understandings <br />
             <hr></hr>
             • Fast Learner and Adaptible <br />
             <hr></hr>
@@ -74,9 +74,36 @@ export default function Home() {
             <hr></hr>
             • 17 years of Photoshop and InDesign  <br />
             <hr></hr>
+            • Enthusiastic and Dedicated Work Ethic  <br />
+            <hr></hr>
           </div>
         </div>
       </div>
+      <div className="wips">
+        <h1 className='wips-h1'>Works in Progress</h1>
+      <a href="https://github.com/skyewasthelimit/word-scrmbl">Word Scrmbl</a>
+        <p className='wips-text'>An API based word scramble game</p>
+        <a href="https://github.com/skyewasthelimit/twitch-notes">Twitch Notes</a>
+        <p className='wips-text'>Fully integrated to-do list app for streamers</p>
+        <a href="https://github.com/skyewasthelimit/skye-bot">IRC Twitch Bot</a>
+        <p className='wips-text'>A responsive back-end chatbot with IRC and websockets</p>
+        <a href="https://github.com/CodeSpent/game-watch">Game Watch</a>
+        <p className='wips-text'>User-content generated list website for games using IMGB API and OAuth built with Next.js</p>
+       ____________________________________________________
+      </div>
+
+      <div className="youtube-player" ID="RPG-GAME">
+        <p>Full game I scripted and built to be released on Steam this year</p>
+      <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/oeHL3t4hob4?si=Wau9UvEi4HMvOteC" title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; 
+      clipboard-write; encrypted-media; 
+      gyroscope; picture-in-picture; 
+      web-share" 
+      allowfullscreen></iframe>
+      <p className='wips-text'>Developed using RPG Maker VX Ace</p>
+      </div>
+
       <div className="Links" id="Links">Links
         <div className="links-panel">
           <Links />
@@ -93,7 +120,7 @@ export default function Home() {
           Front-End Web Developer <br />
           This website was made with Next.JS <br />
         </div>
-          <a href="#Topper"><button className="top-btn">Top</button></a>
+        <a href="#Topper"><button className="top-btn">Top</button></a>
       </div>
     </div>
   )
