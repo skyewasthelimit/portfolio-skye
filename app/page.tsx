@@ -81,19 +81,21 @@ export default function Home() {
       </div>
       <div className="wips">
         <h1 className='wips-h1'>Works in Progress</h1>
-      <a href="https://github.com/skyewasthelimit/word-scrmbl">Word Scrmbl</a>
+        <a className="wips-link" href="https://github.com/skyewasthelimit/word-scrmbl">Word Scrmbl</a>
         <p className='wips-text'>An API based word scramble game</p>
-        <a href="https://github.com/skyewasthelimit/twitch-notes">Twitch Notes</a>
+        <a className="wips-link" href="https://github.com/skyewasthelimit/twitch-notes">Twitch Notes</a>
         <p className='wips-text'>Fully integrated to-do list app for streamers</p>
-        <a href="https://github.com/skyewasthelimit/skye-bot">IRC Twitch Bot</a>
+        <a className="wips-link" href="https://github.com/skyewasthelimit/skye-bot">IRC Twitch Bot</a>
         <p className='wips-text'>A responsive back-end chatbot with IRC and websockets</p>
-        <a href="https://github.com/CodeSpent/game-watch">Game Watch</a>
+        <a className="wips-link" href="https://github.com/CodeSpent/game-watch">Game Watch</a>
         <p className='wips-text'>User-content generated list website for games using IMGB API and OAuth built with Next.js</p>
+        <a className="wips-link" href="https://github.com/skyewasthelimit/explorer-txt">Explorer.txt</a>
+        <p className='wips-text'>React JS Game using setTimeout and useContext hooks for build components</p>
        ____________________________________________________
       </div>
       
       <div className="youtube-player" id="RPG-GAME">
-        <p>Full game I scripted and built to be released on Steam this year</p>
+        <p className='rpggame-text'>Full game I scripted and built to be released on Steam this year</p>
         <iframe
           id="Video"
           className="skye-video"

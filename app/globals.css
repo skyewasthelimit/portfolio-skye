@@ -277,6 +277,7 @@
 
 .wips-h1 {
   font-size: 40px;
+  margin-top: 30px;
   margin-bottom: 30px;
   text-decoration: underline;
 }
@@ -285,6 +286,15 @@
   font-size: 18px;
   background-color: var(--padrao);
   padding: 2px;
+}
+
+.wips-link {
+  color:rgb(255, 72, 246);
+  text-shadow: 1px 1px #10191d;
+}
+
+.wips-link:hover {
+  color:rgb(155, 45, 245);
 }
 
 #RPG-GAME {
@@ -305,7 +315,10 @@
   margin-bottom: 30px;
 }
 
-
+.rpggame-text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 
 .wips {
   display: flex;
