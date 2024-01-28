@@ -4,8 +4,8 @@ export const Skills = () => {
 
   return (
     <div className="skills">
-      Front-End Web Developer <br />
-      HTML • CSS • React • Next • Javascript • Typescript
+      Web Developer <br />
+      HTML • CSS • React • Next • Javascript • Node • And More 
     </div>
   )
 }
