@@ -91,7 +91,6 @@ export default function Home() {
         <p className='wips-text'>User-content generated list website for games using IMGB API and OAuth built with Next.js</p>
         <a className="wips-link" href="https://github.com/skyewasthelimit/explorer-txt">Explorer.txt</a>
         <p className='wips-text'>React JS Game using setTimeout and useContext hooks for build components</p>
-       ____________________________________________________
       </div>
       
       <div className="youtube-player" id="RPG-GAME">
