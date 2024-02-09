@@ -243,7 +243,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 60px;
+  padding-top: 180px;
   background-color: var(--padrao);
   transition: .5s;
   width: 100%;
@@ -260,11 +260,13 @@
   justify-content: center;
   align-items: center;
   background-color: var(--check);
-  width: 98vw;
+  width: 96vw;
   height: 350px;
   transition: .5s;
   border: 1px solid var(--check);
   border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .highlights-list {
@@ -586,4 +588,17 @@ body {
   margin: auto;
   padding: 0;
   transition: 0.5s;
+}
+
+.wordpress-demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--check);
+  transition: .5s;
+  padding: 16px;
+  font-size: 34px;
+  text-decoration: underline;
+  font-weight: 600;
 }

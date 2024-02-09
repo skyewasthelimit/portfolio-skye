@@ -89,12 +89,11 @@ export default function Home() {
         <p className='wips-text'>A responsive back-end chatbot with IRC and websockets</p>
         <a className="wips-link" href="https://github.com/CodeSpent/game-watch">Game Watch</a>
         <p className='wips-text'>User-content generated list website for games using IMGB API and OAuth built with Next.js</p>
-        <a className="wips-link" href="https://github.com/skyewasthelimit/explorer-txt">Explorer.txt</a>
-        <p className='wips-text'>React JS Game using setTimeout and useContext hooks for build components</p>
-        <a className="wips-link" href="https://skye-reviews.netlify.app/">Skye Reviews</a>
-        <p className='wips-text'>A gaming review website project using React components for content rendering</p>
       </div>
-      
+      <div className='wordpress-demo'>
+      <p>WordPress Demo</p>
+      <a className="wordpress-demo" href="https://skyemclean.wordpress.com/" target="_blank"><img className="link-image" style={{ objectFit: 'cover' }} src="/images/wordpressdemo.jpg" alt="Wordpress Demo" loading="lazy" /></a>
+      </div>
       <div className="youtube-player" id="RPG-GAME">
         <p className='rpggame-text'>Full game I scripted and built to be released on Steam this year</p>
         <iframe
