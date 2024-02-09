@@ -92,7 +92,7 @@ export default function Home() {
       </div>
       <div className='wordpress-demo'>
       <p>WordPress Demo</p>
-      <a className="wordpress-demo" href="https://skyemclean.wordpress.com/" target="_blank"><img className="link-image" style={{ objectFit: 'cover' }} src="/images/wordpressdemo.jpg" alt="Wordpress Demo" loading="lazy" /></a>
+      <a className="wp-jpg" href="https://skyemclean.wordpress.com/" target="_blank"><img className="link-image" style={{ objectFit: 'cover' }} src="/images/wordpressdemo.jpg" alt="Wordpress Demo" loading="lazy" /></a>
       </div>
       <div className="youtube-player" id="RPG-GAME">
         <p className='rpggame-text'>Full game I scripted and built to be released on Steam this year</p>
