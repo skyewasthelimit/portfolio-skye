@@ -608,3 +608,21 @@ body {
   margin-top: 30px;
   position: relative;
 }
+
+.certs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--padrao);
+  transition: .5s;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--check);
+  transition: .5s;
+  gap: 10px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}

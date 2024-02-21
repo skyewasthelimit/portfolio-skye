@@ -114,6 +114,12 @@ export default function Home() {
       <p className='wips-text'>Developed using RPG Maker VX Ace</p>
       </div>
 
+      <div className='certs'>
+        Certifications
+        <img className="link-image" style={{ objectFit: 'cover', width: '75vw'}} src="/images/rwd.png" alt="RWD Cert" loading="lazy" />
+        <img className="link-image" style={{ objectFit: 'cover', width: '75vw'}} src="/images/fed.png" alt="FED Cert" loading="lazy" />
+      </div>
+
       <div className="Links" id="Links">Links
         <div className="links-panel">
           <Links />
