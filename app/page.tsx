@@ -116,8 +116,8 @@ export default function Home() {
 
       <div className='certs'>
         Certifications
-        <img className="link-image" style={{ objectFit: 'cover', width: '75vw'}} src="/images/rwd.png" alt="RWD Cert" loading="lazy" />
-        <img className="link-image" style={{ objectFit: 'cover', width: '75vw'}} src="/images/fed.png" alt="FED Cert" loading="lazy" />
+        <img className="link-image" style={{ objectFit: 'cover', width: '400px'}} src="/images/rwd.png" alt="RWD Cert" loading="lazy" />
+        <img className="link-image" style={{ objectFit: 'cover', width: '400px'}} src="/images/fed.png" alt="FED Cert" loading="lazy" />
       </div>
 
       <div className="Links" id="Links">Links
